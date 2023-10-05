@@ -4,10 +4,7 @@
   </div>
 </template>
 
-<script>
-  const tmp = 1;
-  console.log(1);
-</script>
+<script></script>
 
 <style>
   @tailwind base;
