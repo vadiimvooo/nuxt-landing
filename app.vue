@@ -1,14 +1,5 @@
 <template>
-  <div class="flex">
-    <NuxtWelcome />
-  </div>
+  <div class="flex"></div>
 </template>
 
 <script></script>
-
-<style>
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-  @tailwind variants;
-</style>
