@@ -34,6 +34,8 @@ export default defineNuxtConfig({
         },
       ],
     },
+    baseURL: "/nuxt-landing/",
+    buildAssetsDir: "assets",
   },
   devtools: { enabled: true },
   modules: [
