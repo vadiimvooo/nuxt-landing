@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import defaultTheme from "tailwindcss/defaultTheme"
 
 export default {
   content: [
@@ -9,7 +10,30 @@ export default {
     "./src/components/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    screens: {
+      "mob": { min: '480px'},
+      "sm": { min: "640px" },
+      "md": { min: "768px" },
+      "lg": { min: "1024px" },
+      "xl": { min: "1280px" },
+      "2xl": { min: "1440px" },
+    },
+    extend: {
+      colors: {
+        "gray-primary": "#D9D9D9",
+        "link-active": "#FF0000",
+      },
+      backgroundColor: {
+        "gray-primary": "#D9D9D9"
+      },
+      fontFamily: {
+        sans: [
+          '"Inter", sans-serif'
+          , '"Montserrat" sans-serif',
+          ...defaultTheme.fontFamily.sans
+        ],
+      }
+    },
   },
   plugins: [],
 } satisfies Config;

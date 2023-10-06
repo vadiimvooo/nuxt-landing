@@ -11,12 +11,9 @@
     "prettier"
   ],
   "rules": {
-    "vue/multi-word-component-names": [
-      "error",
-      {
-        "ignores": ["index"]
-      }
-    ],
+    "vue/multi-word-component-names": ["error", {
+      "ignores": ["default", "Header", "index"]
+    }],
     "@typescript-eslint/no-unused-vars": ["warn"]
   }
 }
