@@ -1,5 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  generate: {
+    nojekyll: true,
+  },
+  ssr: true,
+  target: "static",
   runtimeConfig: {
     apiSecret: "1234567890",
     public: {
