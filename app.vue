@@ -1,5 +1,8 @@
 <template>
-  <div class="flex"></div>
+  <div>
+    <Header />
+    <NuxtPage></NuxtPage>
+  </div>
 </template>
 
 <script></script>

@@ -7,10 +7,20 @@ export default defineNuxtConfig({
     },
   },
   tailwindcss: {
-    configPath: "~/tailwind.config.cjs",
+    configPath: "~/tailwind.config.ts",
     exposeConfig: false,
     injectPosition: 0,
     viewer: true,
+  },
+  googleFonts: {
+    display: "swap",
+    useStylesheet: true,
+    inject: true,
+    download: true,
+    families: {
+      Inter: [400, 500],
+      Montserrat: [400, 500, 700],
+    },
   },
   css: ["~/assets/css/styles.css"],
   app: {
@@ -27,13 +37,13 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   modules: [
-    "@nuxtjs/tailwindcss",
-    "@pinia/nuxt",
     [
       "@pinia/nuxt",
       {
         autoImports: ["defineStore", ["defineStore", "definePiniaStore"]],
       },
     ],
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/google-fonts",
   ],
 });
