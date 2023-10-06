@@ -18,7 +18,7 @@ jobs:
       
       - run: |
           npm install
-          npm generate
+          npx nuxi generate
       - name: Init new repo in $BUILD_FOLDER and commit generated files
         run: |
           grep -rnwl "<link rel=\"prefetch\"" $BUILD_FOLDER | xargs sed -i 's$<link rel="prefetch" href="[^"]*\.\(jpg\|png\|webm\|jpeg\|ttg\|svg\|gif\)">$$g'
