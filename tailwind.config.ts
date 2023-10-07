@@ -24,7 +24,9 @@ export default {
         "link-active": "#FF0000",
       },
       backgroundColor: {
-        "gray-primary": "#D9D9D9"
+        "gray-primary": "#D9D9D9",
+        "red-primary": "#FF0000",
+        "gray-secondary": "#EEEEEE"
       },
       fontFamily: {
         sans: [

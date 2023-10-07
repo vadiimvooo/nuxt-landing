@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   generate: {
     nojekyll: true,
   },
-  ssr: true,
+  ssr: false,
   target: "static",
   runtimeConfig: {
     apiSecret: "1234567890",
