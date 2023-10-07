@@ -8,6 +8,7 @@
       :image="apiData.testTaskHeaderImage"
       :image-text="apiData.testTaskHeaderImageAltText"
     />
+    <ArticlesSection v-if="apiData" :api-data="apiData" />
   </main>
 </template>
 

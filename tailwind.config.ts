@@ -31,7 +31,7 @@ export default {
       fontFamily: {
         sans: [
           '"Inter", sans-serif'
-          , '"Montserrat" sans-serif',
+          , '"Montserrat" sans',
           ...defaultTheme.fontFamily.sans
         ],
       }
