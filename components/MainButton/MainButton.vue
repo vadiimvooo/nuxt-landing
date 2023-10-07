@@ -23,6 +23,7 @@
     class="bg-red-primary flex justify-center align-middle text-white font-['Inter'] font-light text-xl ease-in-out duration-300 hover:bg-red-500"
     :class="{ medium: size === 'medium' }"
     :to="to"
+    target="_blank"
   >
     <div class="self-center">
       {{ text }}
