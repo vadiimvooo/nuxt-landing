@@ -12,7 +12,7 @@
   ],
   "rules": {
     "vue/multi-word-component-names": ["error", {
-      "ignores": ["default", "Header", "index"]
+      "ignores": ["default", "Header", "index", "Footer"]
     }],
     "@typescript-eslint/no-unused-vars": ["warn"]
   }
