@@ -40,11 +40,11 @@
       {{ title }}
     </h2>
     <div class="flex justify-between gap-x-[60px]">
-      <div class="hidden sm:block relative p-[25px]">
+      <div class="hidden sm:block relative p-[20px]">
         <ArticleNavigation
           :title="navTitle"
           :article-title="articleTitle"
-          class="sticky top-0 min-w-[60px]"
+          class="sticky top-20 min-w-[60px]"
           @scroll="handleScroll($event)"
         />
       </div>

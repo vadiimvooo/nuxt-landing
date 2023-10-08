@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
+
+.swiper-pagination-bullet {
+    width: 12px !important;
+    height: 12px !important;
+    background-color: rgba(255, 0, 0, .2) !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: rgb(255, 0, 0) !important;
+}
