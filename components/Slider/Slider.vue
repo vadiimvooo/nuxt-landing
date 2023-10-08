@@ -18,11 +18,11 @@
 </script>
 
 <template>
-  <div class="flex items-center mb-4">
+  <div class="flex gap-x-[40px] items-center justify-center mb-4">
     <button type="button" class="prev-button rotate-180">
       <img src="~/assets/img/arrow.svg" alt="prev" />
     </button>
-    <div class="min-w-0 max-w-[1120px] m-auto">
+    <div class="min-w-0">
       <swiper
         :modules="modules"
         :centered-slides="true"
@@ -43,6 +43,7 @@
           prevEl: '.prev-button',
         }"
         :auto-height="true"
+        class="max-w-[1120px]"
       >
         <swiper-slide
           v-for="{
