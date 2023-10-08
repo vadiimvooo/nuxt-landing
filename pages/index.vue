@@ -9,6 +9,7 @@
       :image-text="apiData.testTaskHeaderImageAltText"
     />
     <ArticlesSection v-if="apiData" :api-data="apiData" />
+    <SliderSection v-if="apiData" class="hidden xl:block" :api-data="apiData" />
   </main>
 </template>
 
