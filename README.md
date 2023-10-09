@@ -1,6 +1,6 @@
-# ng-recipes-book
+# nuxt-landing
 
-[DEMO](https://vadiimvooo.github.io/ng-recipes-book/)
+[DEMO](https://vadiimvooo.github.io/nuxt-landing/)
 
 ### Stack technologies were used:
 
